@@ -9,6 +9,6 @@ const mondayWork = function (activity="go to the office"){
 
 function wrapAdjective(para1="*") {
     return function (emphatic="special") {
-        return `You are ${para1}.`
+        return `You are ${para1}${emphatic}${para1}!`
     }
 }
